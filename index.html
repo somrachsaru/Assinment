@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITE103:HTML&CSS</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+
+        }
+
+        h1,
+        h2 {
+            margin: 30px;
+            font-size: 30px;
+        }
+
+        p {
+            margin: 10px;
+            font-size: 17px;
+        }
+
+        div:not(.wrapper) {
+            width: 100vw;
+            display: grid;
+            grid-template-columns: repeat(2, auto);
+            gap: 0.5rem;
+            margin: 1rems;
+        }
+
+        .wrapper {
+
+            width: 100%;
+            height: 100%;
+
+        }
+    </style>
+</head>
+
+<body>
+    <img src="images/logo.jpg" alt="">
+    <h1 style="color: green;">College Of Scinece And Technology</h1>
+    <p style="color: green;">The University of Cambodia was established. It was officially opened
+        by Prime Minister Samdech Techo Hun Sen on 23 June 2003. Originally located in three leased
+        buildings just south of the Independence Monument, today the University is firmly established
+        on over 3 hectares of land in the middle of Phnom Penh
+    </p>
+
+    <div>
+        <img src="images/p1.jpg" alt="" class="wrapper">
+        <img src="images/p2.jpg" alt="" class="wrapper">
+    </div>
+
+
+
+    <h2 style="color: blue;">1. Information Technology</h2>
+    <p style="color: slategrey;">IT is Information technology</p>
+    <p style="text-decoration: line-through;">Not International Toilet</p>
+    <h2 style="color: red;">2. Computer Science</h2>
+    <p style="color: slategray;">Computer Science is understanding how and why technologies work,
+        exploring whether and how technology could solve real-life problems, investigating procedures,
+        creating solutions, and learning about computing systems, programming, data, networks
+    </p>
+    <h2 style="color: rgba(255, 0, 0, 0.644);">3. Electronics and Telecommunication</h2>
+    <p style="color: black;">Electronics and Telecommunication Engineeringequips students with a
+        rigorous understanding of basic science and engineering concepts so that learners may acquire
+        a full knowledge of computer architecture and microprocessors, VLSI and embedded systems,
+        electromagnetic field theory, analog and digital
+    </p>
+</body>
+
+</html>
